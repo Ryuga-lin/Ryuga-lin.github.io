@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryuga's Blog | 极客技术笔记</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #0b0f14;
+            color: #e0e0e0;
+            font-family: Consolas, "Microsoft YaHei", monospace;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+
+        /* 标题区域 */
+        header {
+            border-bottom: 1px solid #333;
+            padding-bottom: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .blog-title {
+            font-size: 2rem;
+            color: #ffffff;
+            margin-bottom: 0.5rem;
+        }
+
+        .blog-desc {
+            color: #8899a6;
+            font-size: 1rem;
+        }
+
+        /* 文章列表 */
+        .article-list {
+            margin-top: 2rem;
+        }
+
+        .article-item {
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            background: #101419;
+            border-radius: 6px;
+            border: 1px solid #24292e;
+        }
+
+        .article-title {
+            font-size: 1.2rem;
+            color: #58a6ff;
+            margin-bottom: 0.5rem;
+        }
+
+        .article-date {
+            font-size: 0.85rem;
+            color: #6a737d;
+            margin-bottom: 0.5rem;
+        }
+
+        .article-excerpt {
+            color: #c9d1d9;
+            font-size: 0.95rem;
+        }
+
+        /* 代码块样式 */
+        code {
+            background: #161b22;
+            color: #a5d6ff;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: Consolas, monospace;
+        }
+
+        pre {
+            background: #161b22;
+            padding: 1rem;
+            border-radius: 6px;
+            overflow-x: auto;
+            margin: 0.8rem 0;
+            color: #d2a8ff;
+        }
+
+        /* 底部 */
+        footer {
+            margin-top: 3rem;
+            padding-top: 1rem;
+            border-top: 1px solid #333;
+            text-align: center;
+            color: #666;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="blog-title">Ryuga's Blog</div>
+    <div class="blog-desc">嵌入式 | 编程 | 学习笔记 | 技术记录</div>
+</header>
+
+<div class="article-list">
+
+    <div class="article-item">
+        <div class="article-title">我的第一篇技术博客</div>
+        <div class="article-date">2026-04-17</div>
+        <div class="article-excerpt">
+            今天搭建了个人博客，基于 GitHub Pages，极简极客风。
+            示例代码：
+            <pre>
+#include &lt;stdio.h&gt;
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
+            </pre>
+        </div>
+    </div>
+
+    <div class="article-item">
+        <div class="article-title">学习记录：HTML + CSS 基础</div>
+        <div class="article-date">2026-04-17</div>
+        <div class="article-excerpt">
+            简单了解了网页结构，<code>HTML</code> 负责内容，<code>CSS</code> 负责样式，
+            后续会继续更新学习笔记。
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Ryuga-lin | Built with GitHub Pages
+</footer>
+
+</body>
+</html>
